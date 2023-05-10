@@ -52,7 +52,7 @@ class _HomePageState extends State<HomePage> {
                     Navigator.push(
                         context,
                         MaterialPageRoute(
-                            builder: (context) => const Profil()));
+                            builder: (context) =>  Profil()));
                   },
                 ),
                 ListTile(
@@ -142,8 +142,8 @@ class _HomePageState extends State<HomePage> {
                       child: Center(
                           child:
                               Column(mainAxisSize: MainAxisSize.min, children: [
-                        Image.asset("assets/img/onepiece.jpg"),
-                        Text("One Piece", style: TextStyle(fontSize: 17.0)),
+                        Image.asset("assets/img/mawar.jpg"),
+                        Text("Mawar", style: TextStyle(fontSize: 17.0)),
                       ]))))
             ]));
   }
