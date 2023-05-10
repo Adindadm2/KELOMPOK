@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:splashscreen/header_drawer.dart';
 import 'package:splashscreen/cerita1.dart';
 import 'package:splashscreen/cerita2.dart';
-import 'package:splashscreen/cerita4.dart';
 import 'package:splashscreen/profil.dart';
 
 class HomePage extends StatefulWidget {
@@ -128,8 +127,8 @@ class _HomePageState extends State<HomePage> {
                     child: Column(
                       mainAxisSize: MainAxisSize.min,
                       children: [
-                        Image.asset("assets/img/conan.jpg"),
-                        Text("Conan", style: TextStyle(fontSize: 17.0)),
+                        Image.asset("assets/img/malam.jpg"),
+                        Text("Pengecat Langit Malam", style: TextStyle(fontSize: 17.0)),
                       ],
                     ),
                   ),
@@ -138,19 +137,13 @@ class _HomePageState extends State<HomePage> {
               Card(
                   margin: const EdgeInsets.all(8),
                   child: InkWell(
-                      onTap: () {
-                        Navigator.push(
-                            context,
-                            MaterialPageRoute(
-                                builder: (context) => const Cerita4()));
-                      },
+                      onTap: () {},
                       splashColor: Colors.blue,
                       child: Center(
                           child:
                               Column(mainAxisSize: MainAxisSize.min, children: [
                         Image.asset("assets/img/onepiece.jpg"),
-                        Text("Mawar Merah Darah",
-                            style: TextStyle(fontSize: 17.0)),
+                        Text("One Piece", style: TextStyle(fontSize: 17.0)),
                       ]))))
             ]));
   }
